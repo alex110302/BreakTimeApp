@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BreakTime.MainPage"
+             x:Name="ftmMain">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0">
+            
+            <Label x:Name="lblDisplay" FontSize="Title" Padding="0, 100" HorizontalOptions="Center"/>
+
+            <Button Text="5:minutes" Clicked="btnFiveMin_OnClicked"/>
+            <Button Text="10:minutes" Clicked="btnTenMin_OnClicked"/>
+            <Button Text="15:minutes" Clicked="btnFifteenMin_OnClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
